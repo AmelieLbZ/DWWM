@@ -1,29 +1,38 @@
+
+body {
+  background-color:rgb(246, 247, 243);
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  color :rgb(87, 85, 85);
+}
+
 li ul, li em  { /* closed */
-    position:absolute;
+    position: absolute;
+    min-height: ;
     left:-9999px;
   }
   li:focus ul, li:active ul {/* opened*/
     left:-1em;
-    right:-1em;
+    right:1em;
   }
   li:focus em,li:active em {/* closes (li looses focus)*/
     right:0em;
     left:auto;
   }
-  
+  li:hover {
+        text-decoration: underline;
+  }
   /* mise en forme minimaliste */
-  ul {margin:0;padding:0;}
-  ul li {position:relative;display:inline-block;margin:0 1em;padding:0 0.5em;background: white;
+  ul {margin:0;padding: 1px;}
+  ul li {position: relative;display:inline-block;margin:0 1em;padding:0 0.5em;
   }
   li li {display:block;}
   li em {
-    padding:0 0.45em;
-    background: rgb(129, 126, 126);
-    border: radius 8px;
+    padding:50%;
+    border: radius 50px;
     height:20px;
+    width: 8vmax;
     line-height:0.7em;
     flex-direction:column;
-    display: flex;
-    
+    display: flex;       
   }
   
