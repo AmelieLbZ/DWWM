@@ -1,0 +1,67 @@
+body{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C6C0A0;
+    font-family: Georgia;
+    /*margin-left: auto;
+    margin-right: auto;
+    color:#C6C0A0;
+    font-family: Georgia, 'Times New Roman', Times, serif;*/
+#menu{
+        margin: 0;
+        padding: o;
+        font:bold 1em "georgia" ,verdana;
+        list-style-type: none;
+}
+#container{
+    /*border-radius: -moz-border-radius: 10px -webkit-border-radius: 10px;
+    box-shadow: 8px 8px 12px #aaa;
+    -moz-box-shadow: 8px 8px 12px #aaa;
+    -webkit-box-shadow: 8px 8px 12px #aaa*/
+    border: 1px groove #808080;
+    font: 75% Georgia;
+    line-height: 1.7;
+    color: #555753;
+    padding-left: 70px;
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 8px 8px 12px #aaa;
+    -moz-box-shadow: 8px 8px 12px #aaa;
+    -webkit-box-shadow: 8px 8px 12px #aaa;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#aaaaaa', Direction=135,
+            Strength=12);
+    font-weight: normal;
+}
+h2{
+    color: #7D775C;
+    font-weight: bold;
+    font-style:oblique;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 0;
+}
+h3{
+    color: #7D775C;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font: normal 1.3em georgia, sans-serif
+   
+}
+li{
+    padding-top: 12px;
+}
+.vert{
+    color: #006600; 
+}
+#duree {
+    color: #990033;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+
+}

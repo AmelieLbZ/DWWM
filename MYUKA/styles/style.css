@@ -1,0 +1,184 @@
+*{
+padding: 0;
+margin: 0;
+background-image: src="basic-rgb-175449324.jpg" ;
+
+}
+
+a:hover, a:visited, a:focus, a:active
+{
+    text-decoration: none;
+    
+   
+}
+body{
+    font-family: 'Hurricane', cursive;
+    background-image:url(./image/basic-rgb-175449324.jpg);
+    /*background: src="./image/basic-rgb-175449324.jpg";*/
+}
+/* nav a{
+    color:darkgreen;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+} */
+header{
+    background-color: lightcoral;
+    grid-row-start: 0;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    justify-content: space-around;
+    align-content:space-between;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+/*nav{
+    background-color: aquamarine;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    text-align: center;
+    align-content:space-around;
+    align-items: center;
+}*/
+.btn a:hover{
+    text-decoration: none;
+    color:rgb(245, 198, 70);
+}
+/*.header{ 
+   
+    min-width: 25px;
+    max-width: 50px;
+    font-size: 3em ;
+}*/
+
+.select{
+    position: absolute;
+    top: 100px;
+    left:650px;
+    text-align: center;
+    font-size: 2em;
+    
+    
+    /*margin-top: 20px;
+        display: grid;
+        grid-column-start: 6;
+        grid-column-end: 7;
+         */
+}
+.btn a{    
+        color:black;
+        justify-content: center;
+}
+.btn{
+        
+        width: 50px;
+        /*top-right-bottom-left*/
+        height: 20px;
+        padding: 10px 30px 10px 30px;
+        /*grid-column-start:7;
+        grid-column-end: 8;*/
+        position: absolute;
+        top: 100px;
+        right:650px;
+        background-color:rgb(218, 63, 102);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: aliceblue;
+        text-align: left;
+        border-radius: 35px;
+        cursor: pointer;
+        margin: bottom 15px;
+}
+
+main{
+    /* background-color: bisque; */
+    background: url("../image/healthy-food.jpg"); 
+    /*background-color: bisque;*/
+    width: 100vw;
+    height: 100vw;
+    font-size: 2em;/* background-image: url("basic-rgb-175449324.jpg");
+    /*display:grid;
+    grid-column-start:1;
+    grid-column-end: 2;  
+    margin-left: 0px;
+    grid-row-start: 2;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    float: inline-end;*/
+    
+}
+/*.grille{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    width: 100vw;
+    height: 100vw;
+    position: relative;
+}*/
+
+.codebarre{
+    position: absolute;
+    top: 200px;
+    left:550px;
+}
+
+.marque{
+    position: absolute;
+    top: 200px;
+    right:400px;
+}
+
+.photo{
+    position: absolute;
+    top: 450px;
+    left:550px;
+}
+
+.ingred{
+    position: absolute;
+    top: 450px;
+    right:550px;
+}
+
+.valnutri{
+    position: absolute;
+    top: 750px;
+    left: 550px;
+}
+
+/* display: grid;
+    grid-column-start:1;
+    grid-column-end: 2;  
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-left: 200px;
+    padding-right: 10px;*/
+
+.score{
+    position: absolute;
+    top: 750px;
+    right:550px;      
+}
+
+footer{
+    background-color: lightcoral;
+    font-family: 'Courier New', Courier, monospace;
+    /* grid-row-start: 12;
+    grid-row-end: 13;
+    grid-column-start: 0;
+    grid-column-end: 13;
+    grid-template-columns:5fr 2fr 3fr; */
+    padding-left: 0;
+    padding: right 0;
+     font-size: 1em;
+    text-align: center;
+    min-height: 50px;
+    max-height: 60px;
+    margin-top: 20px;
+   
+ }
