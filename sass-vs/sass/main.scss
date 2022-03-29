@@ -25,7 +25,6 @@ header{
         color: $light;
         font-family: $openSans;
         text-align: center;
-        font-size: 2em;
     }
 }
 
@@ -34,14 +33,13 @@ header{
     margin: 0 auto;
 }
 
+
 /* navigation */
 
 aside{
     background-color: $dark_grey;
 }
 nav{
-    display: flex;
-    
     ul{
         list-style-type: none;
         margin: 0;
@@ -60,7 +58,6 @@ nav{
             a{
                 color: $silver;
                 font-family: $openSans;
-                font-size: 1.5em;
                 text-decoration: none;
             }
         }
@@ -84,7 +81,6 @@ nav{
     }
     p{
         font-family: $openSans; 
-        font-size: 2em;
     }
     blockquote{
         text-align: right;

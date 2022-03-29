@@ -13,7 +13,6 @@ header p {
   color: #fff;
   font-family: "Open Sans", helvetica, arial, sans-serif;
   text-align: center;
-  font-size: 2em;
 }
 
 #search {
@@ -26,9 +25,6 @@ aside {
   background-color: #222;
 }
 
-nav {
-  display: flex;
-}
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -48,7 +44,6 @@ nav ul li:last-child {
 nav ul li a {
   color: #eee;
   font-family: "Open Sans", helvetica, arial, sans-serif;
-  font-size: 1.5em;
   text-decoration: none;
 }
 
@@ -71,7 +66,6 @@ nav ul li a {
 }
 .limonade p {
   font-family: "Open Sans", helvetica, arial, sans-serif;
-  font-size: 2em;
 }
 .limonade blockquote {
   text-align: right;
@@ -85,4 +79,4 @@ nav ul li a {
 }
 .limonade blockquote .mag {
   font-family: "Grand Hotel", serif;
-}/*# sourceMappingURL=main.css.map */
+}
