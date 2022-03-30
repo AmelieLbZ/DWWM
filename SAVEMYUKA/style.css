@@ -1,7 +1,7 @@
 *{
 padding: 0;
 margin: 0;
-background-image: src="basic-rgb-175449324.jpg" ;
+box-sizing: border-box;
 
 }
 
@@ -12,64 +12,41 @@ a:hover, a:visited, a:focus, a:active
    
 }
 body{
-    font-family: 'Hurricane', cursive;
-    background-image: src="basic-rgb-175449324.jpg";
+    background-image: url("/savemyuka/images/Fond2-1.jpg");
+    height: 10vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
-nav a{
+/*.accueil{
+    background-color: lightcoral;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.header{ 
+    min-width: 25px;
+    max-width: 50px;
+    font-size: 1em ;
+}
+/*nav a{
     color:darkgreen;
     text-decoration: none;
-    font-size: 2em;
-    font-weight: 100;
+    font-size: 0.6em;
+    font-weight: 500;
     text-align: center;
 }
 .btn a:hover{
     text-decoration: none;
     color:rgb(245, 198, 70);
-}
-.header{ 
-    min-width: 25px;
-    max-width: 50px;
-    font-size: 3em ;
-}
-.select{
-    margin-top: 20px;
-    display: grid;
-    grid-column-start: 6;
-    grid-column-end: 7;
-    text-align: center;
-    font-size: 1.5em;  
-    
-}
-.btn a{    
+}*/
+
+
+/*.btn a{    
     color:black
     justify-content: center;
-}
-.btn{
-    margin-top: 20px;
-    width: 50px;
-    /*top-right-bottom-left*/
-    height: 20px;
-    padding: 10px 30px 10px 30px;
-    grid-column-start:7;
-    grid-column-end: 8;
-    background-color:rgb(218, 63, 102);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: aliceblue;
-    text-align: left;
-    border-radius: 35px;
-    cursor: pointer;
-    margin: bottom 15px;
-}
+}*/
 
-.grille{
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(12,1fr);
-    width: 100vw;
-    height: 100vw;
-}
-
-.codebarre{
+/*.codebarre{
     display: grid;
     grid-column-start:1;
     grid-column-end: 2;
@@ -125,21 +102,34 @@ nav a{
     margin-left: 50px;
     padding-left: 200px;
     padding-right: 10px;
-}
+}*/
 header{
     background-color: lightcoral;
-    grid-row-start: 0;
-    grid-row-end: 1;
-    grid-column-start: 1;
-    grid-column-end: 13;
     justify-content: space-around;
     align-content:space-between;
     text-align: center;
-    font-size: 3em;
+    font-size: 1em;
     font-weight: bold;
 }
+.form-outline{
+    background-color: darkslategray;
+    color: white;
+    align-content:space-between;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
 nav{
-    background-color: aquamarine;
+    background-color: rgb(98, 105, 103);
+    text-align: center;
+    align-content:space-around;
+    align-items: center;
+}
+/*nav{
+    background-color: rgb(172, 127, 255);
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 1;
@@ -147,10 +137,10 @@ nav{
     text-align: center;
     align-content:space-around;
     align-items: center;
-}
-main{
+}*/
+/*main{
     background-image: src="basic-rgb-175449324.jpg";
-    /*background-color: bisque;*/
+    /*background-color: bisque;
     display:grid;
     grid-column-start:1;
     grid-column-end: 2;  
@@ -161,9 +151,9 @@ main{
     grid-column-end: 13;
     float: inline-end;
     font-size: 2em;
-}
+}*/
 
-footer{
+/*footer{
     background-color: lightcoral;
     font-family: 'Courier New', Courier, monospace;
     grid-row-start: 12;
@@ -179,4 +169,4 @@ footer{
     margin-top: 20px;
     margin-left: 50px;
  
-}
+}*/
