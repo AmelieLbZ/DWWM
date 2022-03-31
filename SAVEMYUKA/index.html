@@ -5,142 +5,144 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Raleway:wght@600&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
   <title>MYUKA</title>
 </head>
 
 <body>
   <!--<header class=""-->
   <header>
-    <div class="container mt-3">
-      <div class="row">
-        <div class="col">
-          <h1>My Yuka</h1>
-        </div>
-      </div>
+    <div id="titre">
+              <h1>My Yuka</h1>
+              <h5>Obtenez les informations sur les produits alimentaires</h5>
     </div>
-
   </header>
   <!-- <div class="container text-align-center"></div>-->
-  <div class="container mt-3">
-    <div class="row">
-      <div class="col-md">
-        <h4>Scanner votre produit</h4>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <input type="text" id="typeText" class="form-control"/>
+  <div id="scanner">
+            <h4>Scanner votre produit</h4>
+           <input type="text" id="typeText" class="form-control"/>
         <!-- <label class="form-label" for="typeText"></label> -->
-        <a class="lead mb-5.bg-dark">
+           <a class="lead mb-5.bg-dark">
           <button type="button mb-5" class="btn btn-primary btn-sm">Scanner</button>
-        </a>
-      </div>
-    </div>
+          </a>
+  </div>
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/Plat4.jpg" class="d-block w-100" alt="photo 1">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Plat5.jpg" class="d-block w-100" alt="photo 2">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Plat3.jpg" class="d-block w-100" alt="photo 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+      <div class="col-md-6" id="card">
+        <div class="card"  style="width: 18rem;" >
+          <div class="card-body" >
+                    <h5 class="card-title">Liste des ingrédients</h5>
+                      <p class="card-text" >Ingrédients : farine de blé enrichie, sucre, huile de soja, sirop de maïs, amidon de maïs modifié, levure chimique, maltodextrine, crème sucre déshydratée, gomme de xanthane, arôme naturel et artificiel.</p>
+                    <!-- <a href="#" class="btn btn-prymary">Go on my bubble</a> -->
+          </div>
+        </div> 
+      </div>
+    </div>
   </div>
-  <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <div class="degrade-diagonal">
+    <div class="allergies">
+                  <h4>Listes des allergènes</h4>
+                  <p>Fruit à coque, Crustacés, Oeufs, Céréales contenant du gluten, Soja, Lactose.</p>
+    </div>  
+  </div>
+  <div class="row">
+    <div class="col-md-4 ml-auto mr-auto"><a><a>Informations de la marque</a><br>
+      <img src="images/Free.jpg"alt="Labels">
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/Pasta1.jpg" class="d-block w-50" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
-      </div>
+    <div class="col-md-4"><a>Valeur nutritionnelles</a><br>
+      <img src="images/ValNutr.jpg" alt="Valeur nutritionnelles" >
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div> -->
+    <div class="col-md-4"><a>Informations sur le produit</a><br>
+      <img src="images/NutriScore.jpg" alt="Nutriscore" >
+    </div>
+  </div>
   
-  <!-- Grille resposive-->
-   <div class="parents-container mt-3">
+    
+  <footer>
     <div class="container">
-      <div class="row justify-content-center mt-3">
-        <div class="col">
-          <img src="images/Pasta1.jpg" alt="photo produit" class="w-30">
-          <p>Photo du produit</p>
-        </div>
-        
-        <div class="col">
-          <img src="images/ingred.jpg" alt="Liste des ingrédients" class="w-30">
-          <p>Liste des ingrédients</p>           
-        </div>
-        </div>
-        <!-- <div class="col-md-6 col-sm-12"> -->
-          <!-- <p class="card-text">Listes des allergènes: -->
-          <ul class="list justify-content-left text-white">
-            <il>Fruits à coque</il>
-            <il>Crustacés</il>
-            <il>Oeufs</il>
-            <il>Céréales contenant du gluten</il>
-            <il>Soja</il>
-            <il>Lactose</il>
-          </ul>
+      <div class="row">
+        <div class="col-md-6">               
+          <p>
+            <a>
+              <h6>@Site MYUKA Amélie Le Bras</h6>
+            </a>
           </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  <!-- <div class="row">
-          <div class="col-md4 col-sm-6">
-              <div class="mb-4 shadow-sm">                                           
-             
+        </div>    
+      <div class="col-md-6">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contactez-nous</button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Nouveau Message</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="recipient-name" class="col-form-label">Prénom</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                      <label for="recipient-name" class="col-form-label">E-mail</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                      <label for="message-text" class="col-form-label">Message:</label>
+                      <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                  <button type="button" class="btn btn-primary">Envoyer</button>
+                </div>
+              </div>
             </div>
           </div>
-
-          <div class="codebarre">
-               <a>Code barre</a>
-               <img src="images/R.png"alt="code barre" height="195px" width="250px">
-          </div> 
-          <div class="marque">
-            <p>
-              <a>Informations de la marque</a><br>
-              <img src="images/sodebo.jpg"alt="Marque" height="150px" width="450px">
-            </p>
-          </div>-->
-
-    <div class="valnutri">
-    <p>
-      <a>Valeur nutritionnelles</a><br>
-      <img src="images/ValNutr.jpg" alt="Valeur nutritionnelles" height="200px" width="150px">
-    </p>
-  </div>
-  <div class="score">
-    <p>
-      <a>Informations sur le produit</a><br>
-      <img src="images/NutriScore.jpg" alt="Nutriscore" height="150px" width="200px">
-    </p>
-  </div>
-  </Main>
-
-  <footer>
-    <div>
-      <p>
-        <a>
-          <h6>@Site MYUKA Amélie Le Bras</h6>
-        </a>
-      </p>
+        </div>
     </div>
-  </footer>
+  </div>
+</footer>
+   
+
+<script>
+    $(".carousel").carousel({
+      pause: "null"
+    })
+</script>
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>

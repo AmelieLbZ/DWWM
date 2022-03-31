@@ -1,24 +1,75 @@
 
 body{
-    background-image: url("/savemyuka/images/Fond2.jpg");
+    background-image: url("/savemyuka/images/Fond2-1.jpg");
     /* height: 10vh; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
 }
 
-
-
-/* header{
-    background-color: lightcoral;
+header{
     text-align: center;
     font-size: 1em;
     font-weight: bold;
-    border: 2px solid #000;
-} */
-.container {
+    border: 1px solid white;
+} 
+#scanner{
+    text-align:center;
+    /* margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 500px;
+    margin-right: 500px; */
+    font-size: 1em;
+    font-weight: bold;
+   
+} 
+
+.row{
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+  
+}
+.col-md-6{
+    justify-content: center;
+    align-self: center;
+}
+#card{
+    align-content: center;    
+}
+.card{
+    color: black;
+    justify-content: center;
+}
+
+.allergies{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    
+}
+.degrade-diagonal{
+    background: linear-gradient(to bottom right, rgb(100, 100, 100), rgb(189, 194, 197));
+    /* margin-top: 20 px; */
+}
+.msg{
+    justify-content: right;
+
+
+
+}
+/* #nvflex{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    align-content: space-between;
     opacity: 1;
     text-align: center;
     font-size: 1em;
     font-weight: bold;
-    border: 3px solid rgb(194, 116, 26);
-   }
+    margin-top: 50px;
+    position: absolute;
+
+} */
+  
