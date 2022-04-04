@@ -1,0 +1,42 @@
+ /* .container{
+font-family:p Roboto Mono;
+color : #0D0D0D ;
+color :#F2C84B;
+color :#F2E205;
+color :#2F3640;
+color :#7587BF;   */
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #2F3640;
+}
+
+.container{
+    background-color: #2F3640;
+    color: #7587BF;
+    font-family:p Roboto Mono;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+h1{
+    font-family: Inconsolata;
+    font-size: Extra-bold 800 ; 
+    color: #F2C84B;
+}
+h6{
+    font-family:p Roboto Mono;
+    color :#7587BF;
+}
+
+footer{
+  
+    margin-bottom: 0px;
+    height: 20px;
+    font-family:p Roboto Mono;
+    font-size: x-small;
+
+}
