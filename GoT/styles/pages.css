@@ -14,11 +14,7 @@ body{
 img{
     image-orientation: flip;
 }
-.card{
-    margin-top: 50px;
 
-
-}
 iframe{
     padding: 5px;
 }
@@ -69,11 +65,15 @@ tbody tr, td, th{
     color: white;
     font-weight:bold;
 }
-.col-lg-6{
-        margin-top: 400px;
-        border: 1px solid rgb(235, 162, 52);
-
+.container{
+    display:flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    flex-direction: column;
+    grid-area: 20px;
+    text-align:justify;
+    justify-content:left;
 }
+
 .row{
     justify-content: center;
     border-style:none;
@@ -84,22 +84,66 @@ tbody tr, td, th{
   
 }
 .col-md-6{
+        margin-top: 50px;
+        margin-left: 50px ;
+}
+.col{
     justify-content: center;
     align-self: center;
-    width: auto;
+    margin-top: 50px;
+    margin-left: 50px ;        
+    width: 550px;
 }
-#card{
+/* #card{
     align-content: center;    
-    color: #943d27;
+    color: #943d27; */
+.card1{
+        margin-top: 20px;
+        justify-content: center;
+        box-shadow: 5px 5px 8px 8px #16b6c2;
+        background-color: rgb(50, 104, 104);
+        opacity: 0.9;
 }
-.card{
-    /* color: grey; */
+.card2{
+    margin-top: 20px;
     justify-content: center;
-    
+    box-shadow: 5px 5px 8px 8px #16b6c2;
+    background-color: rgb(50, 104, 104);
+    opacity: 0.9;
+}
+.card3{
+    margin-top: 20px;
+    justify-content: center;
+    box-shadow: 5px 5px 8px 8px #16b6c2;
+    background-color: rgb(50, 104, 104);
+    opacity: 0.9;
+}
+.card4{
+    margin-top: 20px;
+    justify-content: center;
+    box-shadow: 5px 5px 8px 8px #16b6c2;
+    background-color:rgb(50, 104, 104);
+    opacity: 0.9;
+}.card5{
+    margin-top: 20px;
+    justify-content: center;
+    box-shadow: 5px 5px 8px 8px #16b6c2;
+    background-color: rgb(50, 104, 104);
+    opacity: 0.9;
+}.card6{
+    margin-top: 20px;
+    justify-content: center;
+    box-shadow: 5px 5px 8px 8px #16b6c2;
+    background-color: rgb(50, 104, 104);
+    opacity: 0.9;
 }
 .card-title{
-    color: #943d27;
+    color: black;
+    font-weight: bolder;
     
+}
+.card-text{
+    font-weight: bolder;
 }
 #carousel{
     margin-top: 50px;
@@ -109,11 +153,17 @@ tbody tr, td, th{
 
 }
 
- .btn btn-prymary{
+ .btn.btn-prymary{
     border: 1px solid rgb(235, 162, 52);
-    color: #943d27;
+    color: black;
+    font-weight: bolder;
  }
+ .source{
+    margin: 20px;
+    margin-left: 500px;
+    
 
+ }
 /* .chateau2{
     margin-top: 100px; 
     margin-bottom: 100px;
