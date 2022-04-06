@@ -4,7 +4,7 @@ body{
     margin: 0; 
     padding:0;
     font-family:'Cinzel', serif;
-    background-image: url(../images/Fond.jpg);
+    background-image: url(../images/fond11.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width :100%;
@@ -17,14 +17,17 @@ body{
     justify-content: center;
     align-items:center;
     font-family:'Cinzel', sans-serif ;
+    padding: 20px;
+    margin: 0;
+    margin-top: 0px;
 
 }
-/* .tableau-style{
-    border-collapse: collapse;
-    min-width: 400px;
-    width: auto;
-    box-shadow:0 50px 50px rgba(#943d27,#943d27, #943d27, 0.15);
-    cursor:pointer;
-    margin: 100px auto;
-    border: 2px solid black;
-} */
+footer{
+    background-color: #943d27;
+    color:rgb(235, 162, 52);
+    text-align:center;
+    padding: 20px;
+    margin-top: 550px;
+    margin-bottom: 0px;
+  
+}
