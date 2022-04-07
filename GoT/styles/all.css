@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
 body{
     margin: 0; 
     padding:0;
@@ -13,6 +16,7 @@ body{
 }   
 .navbar{
     display: flex;
+    flex-grow: 1;
     flex-wrap: wrap;
     justify-content: center;
     align-items:center;
@@ -20,7 +24,8 @@ body{
     padding: 10px;
     margin: 0;
     margin-top: 0px;
-
+    width: 100%;
+    height: auto;    
 }
 footer{
     background-color: #943d27;

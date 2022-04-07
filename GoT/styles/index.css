@@ -4,7 +4,7 @@ body{
     margin: 0; 
     padding:0;
     font-family:'Cinzel', serif;
-    background-color:#F1D9B3 ;
+   
 }   
 .navbar{
     display: flex;
@@ -12,4 +12,34 @@ body{
     justify-content: center;
     align-items:center;
     font-family:'Cinzel', sans-serif ;
+}
+#navbarNav{
+        display: flex;
+        justify-content: flex-end;
+
+}
+.carteNord{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 500px ;        
+    width: 782px;
+    height: 730px;
+    box-shadow: 5px 5px 8px 8px #16b6c2;
+    opacity: 0.9;
+}
+.histoireNord{
+    font-size: medium;
+    font-style: italic;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+
+}
+hr{
+    line-height: 1px;
+    color: aqua;
+    border-color: #16b6c2;
+    box-shadow: 5px 5px 8px 8px aqua;
+    opacity: 0.9;
 }

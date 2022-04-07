@@ -17,7 +17,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(85, 50, 50);">
-            <a class="navbar-brand" href="#"><h2 style="color: rgb(235, 162, 52);"><img src="../images/mur.png" alt="Le Mur">Le Mur</h2></a>
+            <a class="navbar-brand" href="#"><h2 style="color: rgb(235, 162, 52);"><img class="imagenav" src="../images/mur.png" alt="Le Mur">Le Mur</h2></a>
              <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="nav justify-content-end">
                 <li class="nav-item">
@@ -34,14 +34,14 @@
         </nav>
     </header> 
 
-<div class="container">    <!--Grille contenant les cartes-->       
+<div class="containerPage2">    <!--Grille contenant les cartes-->       
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-6">
              <div class="card2" style="width: 25rem;">
                     <img src="../images/castleblack.jpg" class="card-img-tap" alt="castle black">
                 <div class="card-body">
                     <h5 class="card-title">Castle Black</h5>
-                    <p class="card-text">Castle Black est le siège principal et la redoute de la Garde de Nuit. Il est situé à peu près à mi-chemin le long du mur sur son côté sud, à l’extrémité nord de la Kingsroad. C’est une maison sombre et effrayante pour sa garnison.<br>
+                    <p class="card-text">Castle Black ou Châteaunoir est le siège principal et la redoute de la Garde de Nuit. Il est situé à peu près à mi-chemin le long du mur sur son côté sud, à l’extrémité nord de la Kingsroad. C’est une maison sombre et effrayante pour sa garnison.<br>
 
                     Castle Black était, à l’origine, l’un des trois seuls châteaux habités restants sur le mur avec Eastwatch-by-the-Sea et la Shadow Tower. Il y a dix-neuf châteaux le long du Mur, mais comme leur nombre a diminué au fil des siècles, la Garde de Nuit en a abandonné seize. Castle Black est situé entre les châteaux sans pilote de Queensgate et Oakenshield.<br>
                         
@@ -54,7 +54,7 @@
             </div>
         </div> 
       
-        <div class="col-md-3">
+        <div class="col-md-6">
              <div class="card3" style="width: 25rem;">
                 <img src="../images/gardedenuit2.jpg" class="card-img-tap" alt="castle black">
                 <div class="card-body">
@@ -73,16 +73,45 @@
         </div> 
     </div>      
 </div>
-<div class="source">
-<p>Source: <a href="https://gameofthrones.fandom.com/fr/wiki/Garde_de_Nuit" target="_blank">https://gameofthrones.fandom.com</a></p>
-</div>
-
-
-
+<div class="col-md-12">
+    <table class="tableau-style"><h4 id="txtblanc">La Garde de Nuit : </h4>   <!--Déclaration du tableau-->
+        <thead>
+            <tr>
+                <th>Statut</th>
+                <th>Leader</th>
+                <th>Membres</th>               
+                <th>Force militaire</th>
+                <th>Lieux</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody id="txtblanc">
+            <tr>
+                <td>Active</td>
+                <td>Incertain</td>
+                <td>Lord Commandant Eddison Tallett †<br>
+                    Lord Commandant Jon Snow<br>
+                    Lord Commandant Jeor Mormont †<br>
+                    Lord Commandant Alliser Thorne †</td>
+                <td>Moins de 700 soldats</td>
+                <td>Le Mur<br>
+                    Châteaunoir<br>
+                    Tour Ombreuse<br>
+                    Fort-Levant (détruit)
+                    <br>Fort Nox (anciennement)
+                    <br>Griposte (anciennement)
+                    <br>Et anciennement, 15 autres châteaux         
+                </td>
+                <td>8000 ans selon la légende</td>
+             </tr>
+        </tbody>
+    </table>
+ </div> 
 
 <footer>
 
-    <p>ECF Amélie LE BRAS</p>
+    <div class="source">ECF Amélie LE BRAS <h6>Source: <a href="https://gameofthrones.fandom.com/fr/wiki/Garde_de_Nuit" target="_blank">https://gameofthrones.fandom.com</h6></a></div>
+    
 </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
