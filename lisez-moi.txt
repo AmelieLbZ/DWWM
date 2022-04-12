@@ -1,0 +1,11 @@
+
+Pour ce site, j'ai choisi d'explorer uniquement la géographie du nord du continent Westéros, issu de la série Game of Thrones.
+
+Jai utilisé les blasons de chaque partie de cette région dans ma navbar ainsi que l'intitulé correspodant.
+
+J'utilise différentes fonctionnalitées de bootstrap telles que les navbars, les boutons,...
+Pour les pages 1 à 3.html, j'ai utilisé des cards avec une image de présentation en haut de chacune ainsi qu'un texte descriptif, soulignées par des border-shadow.
+
+Au niveau de chaque retour vers la page d'accueil, une balise <audio> avec un "autoplay" permet de lancer une des musiques de la série.
+
+
