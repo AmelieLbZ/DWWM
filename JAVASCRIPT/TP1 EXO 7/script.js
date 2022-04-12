@@ -1,7 +1,4 @@
-// let parag= document.getElementById(para)
-
-function permutation(){
-    if (onclick.button=true) {
-        txt2=txt1;
-        
-    }
+const txt1 = "Premier texte";
+const txt2="Deuxième texte";
+          
+console.log(${txt1} is ${sentence.charAt(txt1)}`); 

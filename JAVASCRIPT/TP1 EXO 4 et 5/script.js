@@ -5,7 +5,7 @@ let resultat="";
 
 function affichage() {
     resultat+=nb;
-    console.log(resultat);
+    document.write(resultat+"</br>");
 }
 nbLigne=prompt("Veulliez rentez le nombre de lignes souhaité");
 nb=prompt("Veulliez rentez le nombre entier souhaité");
@@ -13,5 +13,6 @@ affichage()
 for (i = 2; i <= nbLigne ;i++) {
      affichage();
     }
+
     
 
