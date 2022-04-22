@@ -27,9 +27,17 @@ body{
     width: 100%;
     height: auto;    
 }
+#navbarNav{
+    display: flex;
+    justify-content: flex-end;
+}
+.imagenav{
+    width: 200px;
+}
 footer{
     background-color: #943d27;
     color:rgb(235, 162, 52);
+    justify-content: center;
     text-align:center;
     padding: 20px;
     margin-top: 550px;
