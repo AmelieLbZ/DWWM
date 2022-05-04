@@ -1,0 +1,45 @@
+{
+    "nom": "PIZZALAND",
+    "slogan": "La féérie des pizzas",
+    "pizzas": [
+      {
+        "nomPizza": "Andrésienne",
+        "prix": 15,
+        "image" :"https://slicelife.imgix.net/35775/photos/original/Pinos3.png?auto=compress&auto=format",
+        "garniture": [
+         "Bacon",
+         "Gruyère",
+         "Jambon", 
+         "Fromage de chèvre",
+         "Oignons", 
+         "Parmesan", 
+         "Merguez", 
+         "Oeuf", 
+         "Tomates"
+                  ]
+      },
+      {
+        "nomPizza": "Montagnarde",
+        "prix": 12,
+        "image" : "https://i.pinimg.com/originals/49/7f/4a/497f4af391b65f2ca592c668966565e0.jpg",
+        "garniture": [
+         "Pommes de Terre",
+         "Lardons",
+         "Crème",
+         "Reblochon",
+         "Oignons"         
+                  ]
+      },
+      {
+        "nomPizza": "Margherita",
+        "prix": 10,
+        "image" : "https://th.bing.com/th/id/OIP.7u7xBFsgeJEXS4JdDUYPhAHaE8?pid=ImgDet&rs=1",
+        "garniture": [
+         "Tomate",
+         "Jambon",
+         "Mozzarela",
+         "Basilic"        
+        ]
+      }
+    ]
+  }
