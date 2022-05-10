@@ -1,0 +1,17 @@
+h1{
+    margin: 0;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.imagenav{
+    margin: 5px;
+    height: 195px;
+    justify-content: flex-start;
+    }
+#typeCocktail{
+    
+
+
+    }

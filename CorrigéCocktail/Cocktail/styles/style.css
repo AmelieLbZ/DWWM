@@ -1,0 +1,77 @@
+body {
+    background-image: linear-gradient(to bottom, #ffc50570 0%, #FFC30570 0%, #00000070 100%), url("../images/bubble.png");
+    background-repeat: repeat;
+    height: 100vh;
+    color: white;
+    overflow-x: hidden;
+    font-family: 'Bebas Neue';
+}
+
+.separate {
+    height: 70px;
+}
+
+.navbar {
+    background: #c70038d5;
+    background: linear-gradient(45deg, #c70038c2 0%, #C70039c2 47%, #FFC305c2 100%);
+    border-bottom: 1.5px solid white
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: white !important;
+}
+
+#zone_cocktail {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    /* background: #ff5733; */
+}
+
+.cards {
+    margin: 0.5%;
+    padding: 3px;
+    background: #900c3f;
+    background: radial-gradient(ellipse at center, #900C3F 0%, #FF5733 100%);
+    text-align: center;
+    width: auto;
+    border-radius: 5px;
+}
+
+.cards:hover {
+    background: #fe166f;
+    background: radial-gradient(ellipse at center, #c70039 0%, #FFC305 100%);
+    transform: scale(1.15);
+    transition: all 350ms ease-in-out;
+}
+
+.card-text {
+    padding: 0.3rem 0.8rem;
+    position: absolute;
+    bottom: 2.3rem;
+    opacity: 0;
+    transition: 0.5s;
+    width: 60%;
+    z-index: -1;
+}
+
+.cards:hover .card-text {
+    color: black;
+    text-shadow: 0 0 10px #FFFFFF;
+    z-index: 1;
+    background: #c70039;
+    background: linear-gradient(45deg, #ffc305 0%, #00000046 100%);
+    opacity: 1;
+    bottom: 1rem !important;
+}
+
+.searchZone {
+    text-align: center;
+    margin: 1% 0;
+}
+
+.ModalStyle {
+    color: black;
+}
